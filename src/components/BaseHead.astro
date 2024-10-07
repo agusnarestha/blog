@@ -10,7 +10,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 
 const { title, description } = Astro.props
 
-const siteTitle = title ?? config.title
+const siteTitle = `${title ?? config.title} | by Agus Narestha`
 const siteDescription = description ?? config.description
 ---
 

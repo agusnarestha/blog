@@ -12,9 +12,10 @@ type Config = {
 }
 
 export default {
-  author: 'John Doe',
-  title: 'Neobrutalism blog template',
-  description: 'Lorem ipsum dolor sit amet',
+  author: 'Agus Narestha',
+  title: 'Agus Narestha Blog',
+  description:
+    'Discover insights on technology, programming, web development, and personal experiences through my blog.',
   lang: 'en',
   themes: {
     dark: 'github-dark',
